@@ -19,7 +19,7 @@ export default function App() {
 
   const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Gedung+Serbaguna+Melati%2C+Jakarta+Timur';
   const calendarUrl =
-    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Andi+%26+Sari&dates=20261212T030000Z/20261212T060000Z&details=Undangan+Pernikahan+Andi+%26+Sari+di+Gedung+Serbaguna+Melati%2C+Jakarta+Timur&location=Gedung+Serbaguna+Melati%2C+Jakarta+Timur';
+    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261212T030000Z/20261212T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Gedung+Serbaguna+Melati%2C+Jakarta+Timur&location=Gedung+Serbaguna+Melati%2C+Jakarta+Timur';
 
   return (
     <main className="min-h-screen bg-[#F6F4EE] flex items-center justify-center p-3 sm:p-6 md:p-10 font-sans text-[#2C362D]">
@@ -54,9 +54,11 @@ export default function App() {
 
             <h1
               id="main-wedding-title"
-              className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold text-[#233222] tracking-tight py-1"
+              className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#233222] tracking-tight py-1 flex flex-col items-center gap-1 sm:gap-2 leading-tight"
             >
-              Andi <span className="text-[#8fae8e] font-normal italic font-serif">&amp;</span> Sari
+              <span>Lucky Reginal</span>
+              <span className="text-[#8fae8e] font-normal italic font-serif text-2xl sm:text-3xl">&amp;</span>
+              <span>Hafshah Humaira</span>
             </h1>
 
             <p className="text-sm sm:text-base font-medium text-[#415d40] tracking-wide">
@@ -96,7 +98,7 @@ export default function App() {
               <Heart className="w-3.5 h-3.5 text-[#8fae8e] fill-current" />
             </div>
             <p className="font-serif text-xl sm:text-2xl font-bold text-[#233222]">
-              Andi &amp; Sari
+              Lucky Reginal &amp; Hafshah Humaira
             </p>
             <p className="text-[11px] text-[#8fae8e]">
               Beserta segenap keluarga besar
