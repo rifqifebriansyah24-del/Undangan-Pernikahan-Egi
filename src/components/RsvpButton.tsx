@@ -6,6 +6,11 @@ interface RsvpButtonProps {
   defaultMessage: string;
 }
 
+const formatWhatsappNumber = (number: string): string => {
+  const national = number.startsWith('62') ? `0${number.slice(2)}` : number;
+  return `+62 ${national.slice(1, 4)}-${national.slice(4, 8)}-${national.slice(8)}`;
+};
+
 export const RsvpButton: React.FC<RsvpButtonProps> = ({
   whatsappNumber,
   defaultMessage,
@@ -69,7 +74,7 @@ export const RsvpButton: React.FC<RsvpButtonProps> = ({
 
         <div className="text-xs text-[#6d936c] flex items-center justify-center gap-1.5 pt-1">
           <span>Terkirim otomatis ke WhatsApp:</span>
-          <span className="font-mono font-medium text-[#415d40]">+62 812-3456-7890</span>
+          <span className="font-mono font-medium text-[#415d40]">{formatWhatsappNumber(whatsappNumber)}</span>
         </div>
 
         {hasClicked && (

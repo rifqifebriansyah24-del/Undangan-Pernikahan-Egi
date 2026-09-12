@@ -14,7 +14,7 @@ import { RsvpButton } from './components/RsvpButton';
 export default function App() {
   // Target date: Saturday, 12 December 2026, 10:00:00 WIB (GMT+7)
   const targetDateISO = '2026-12-12T10:00:00+07:00';
-  const whatsappNumber = '6281234567890';
+  const whatsappNumber = '6281224202696';
   const whatsappDefaultMessage = 'Halo, saya konfirmasi hadir';
 
   const mapsUrl = 'https://goo.gl/maps/7gyXfs8kE8pMnp219?g_st=aw';
