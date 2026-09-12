@@ -19,7 +19,7 @@ export default function App() {
 
   const mapsUrl = 'https://goo.gl/maps/7gyXfs8kE8pMnp219?g_st=aw';
   const calendarUrl =
-    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261024T030000Z/20261024T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Kediaman+Mempelai%2C+Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat&location=Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat';
+    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+Z.+%26+Hafshah+Humaira&dates=20261024T030000Z/20261024T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+Z.+%26+Hafshah+Humaira+di+Kediaman+Mempelai%2C+Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat&location=Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat';
 
   return (
     <main className="min-h-screen bg-[#F6F4EE] flex items-center justify-center p-3 sm:p-6 md:p-10 font-sans text-[#2C362D]">
@@ -57,7 +57,7 @@ export default function App() {
               className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#233222] tracking-tight py-1 flex flex-col items-center gap-1 sm:gap-2 leading-tight"
             >
               <span className="flex flex-col items-center gap-1">
-                <span>Lucky Reginal</span>
+                <span>Lucky Reginal Z.</span>
                 <span className="text-[11px] sm:text-xs font-normal tracking-normal text-[#537552]">
                   Putra dari Bapak Syaiful Zamzam &amp; Ibu Rita Ermayani
                 </span>
@@ -108,7 +108,7 @@ export default function App() {
               <Heart className="w-3.5 h-3.5 text-[#8fae8e] fill-current" />
             </div>
             <p className="font-serif text-xl sm:text-2xl font-bold text-[#233222]">
-              Lucky Reginal &amp; Hafshah Humaira
+              Lucky Reginal Z. &amp; Hafshah Humaira
             </p>
             <p className="text-[11px] text-[#8fae8e]">
               Beserta segenap keluarga besar
