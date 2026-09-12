@@ -17,9 +17,9 @@ export default function App() {
   const whatsappNumber = '6281234567890';
   const whatsappDefaultMessage = 'Halo, saya konfirmasi hadir';
 
-  const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=Gedung+Serbaguna+Melati%2C+Jakarta+Timur';
+  const mapsUrl = 'https://goo.gl/maps/7gyXfs8kE8pMnp219?g_st=aw';
   const calendarUrl =
-    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261212T030000Z/20261212T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Gedung+Serbaguna+Melati%2C+Jakarta+Timur&location=Gedung+Serbaguna+Melati%2C+Jakarta+Timur';
+    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261212T030000Z/20261212T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Kediaman+Mempelai%2C+Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat&location=Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat';
 
   return (
     <main className="min-h-screen bg-[#F6F4EE] flex items-center justify-center p-3 sm:p-6 md:p-10 font-sans text-[#2C362D]">
@@ -61,6 +61,11 @@ export default function App() {
               <span>Hafshah Humaira</span>
             </h1>
 
+            <div className="text-[11px] sm:text-xs text-[#537552] space-y-0.5 pt-0.5">
+              <p>Putra dari Bapak Syaiful Zamzam &amp; Ibu Rita Ermayani</p>
+              <p>Putri dari Bapak Tarmidji &amp; Ibu Erni Meriawati</p>
+            </div>
+
             <p className="text-sm sm:text-base font-medium text-[#415d40] tracking-wide">
               Sabtu, 12 Desember 2026
             </p>
@@ -79,8 +84,8 @@ export default function App() {
           <EventDetails
             dateText="Sabtu, 12 Desember 2026"
             timeText="10.00 WIB"
-            locationName="Gedung Serbaguna Melati"
-            locationAddress="Jakarta Timur, DKI Jakarta"
+            locationName="Kediaman Mempelai"
+            locationAddress="Perumahan Cibarusah Indah, Cibarusahkota, Kab. Bekasi, Jawa Barat"
             mapsUrl={mapsUrl}
             calendarUrl={calendarUrl}
           />
