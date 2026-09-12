@@ -12,14 +12,14 @@ import { EventDetails } from './components/EventDetails';
 import { RsvpButton } from './components/RsvpButton';
 
 export default function App() {
-  // Target date: Saturday, 12 December 2026, 10:00:00 WIB (GMT+7)
-  const targetDateISO = '2026-12-12T10:00:00+07:00';
+  // Target date: Saturday, 24 October 2026, 10:00:00 WIB (GMT+7)
+  const targetDateISO = '2026-10-24T10:00:00+07:00';
   const whatsappNumber = '6281224202696';
   const whatsappDefaultMessage = 'Halo, saya konfirmasi hadir';
 
   const mapsUrl = 'https://goo.gl/maps/7gyXfs8kE8pMnp219?g_st=aw';
   const calendarUrl =
-    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261212T030000Z/20261212T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Kediaman+Mempelai%2C+Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat&location=Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat';
+    'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira&dates=20261024T030000Z/20261024T060000Z&details=Undangan+Pernikahan+Lucky+Reginal+%26+Hafshah+Humaira+di+Kediaman+Mempelai%2C+Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat&location=Perumahan+Cibarusah+Indah%2C+Cibarusahkota%2C+Kab.+Bekasi%2C+Jawa+Barat';
 
   return (
     <main className="min-h-screen bg-[#F6F4EE] flex items-center justify-center p-3 sm:p-6 md:p-10 font-sans text-[#2C362D]">
@@ -67,7 +67,7 @@ export default function App() {
             </div>
 
             <p className="text-sm sm:text-base font-medium text-[#415d40] tracking-wide">
-              Sabtu, 12 Desember 2026
+              Sabtu, 24 Oktober 2026
             </p>
 
             <BotanicalDivider />
@@ -82,7 +82,7 @@ export default function App() {
 
           {/* Waktu dan Lokasi Acara */}
           <EventDetails
-            dateText="Sabtu, 12 Desember 2026"
+            dateText="Sabtu, 24 Oktober 2026"
             timeText="10.00 WIB"
             locationName="Kediaman Mempelai"
             locationAddress="Perumahan Cibarusah Indah, Cibarusahkota, Kab. Bekasi, Jawa Barat"
