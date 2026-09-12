@@ -56,15 +56,20 @@ export default function App() {
               id="main-wedding-title"
               className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#233222] tracking-tight py-1 flex flex-col items-center gap-1 sm:gap-2 leading-tight"
             >
-              <span>Lucky Reginal</span>
+              <span className="flex flex-col items-center gap-1">
+                <span>Lucky Reginal</span>
+                <span className="text-[11px] sm:text-xs font-normal tracking-normal text-[#537552]">
+                  Putra dari Bapak Syaiful Zamzam &amp; Ibu Rita Ermayani
+                </span>
+              </span>
               <span className="text-[#8fae8e] font-normal italic font-serif text-2xl sm:text-3xl">&amp;</span>
-              <span>Hafshah Humaira</span>
+              <span className="flex flex-col items-center gap-1">
+                <span>Hafshah Humaira</span>
+                <span className="text-[11px] sm:text-xs font-normal tracking-normal text-[#537552]">
+                  Putri dari Bapak Tarmidji &amp; Ibu Erni Meriawati
+                </span>
+              </span>
             </h1>
-
-            <div className="text-[11px] sm:text-xs text-[#537552] space-y-0.5 pt-0.5">
-              <p>Putra dari Bapak Syaiful Zamzam &amp; Ibu Rita Ermayani</p>
-              <p>Putri dari Bapak Tarmidji &amp; Ibu Erni Meriawati</p>
-            </div>
 
             <p className="text-sm sm:text-base font-medium text-[#415d40] tracking-wide">
               Sabtu, 24 Oktober 2026
